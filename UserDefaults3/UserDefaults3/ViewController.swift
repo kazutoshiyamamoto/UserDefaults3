@@ -12,7 +12,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // 現在時刻を保存
+        self.saveCurrentTime()
+    }
+    
+    // 現在時刻を保存
+    private func saveCurrentTime() {
         let dateFormatter =  DateFormatter()
         dateFormatter.dateStyle = .short
         dateFormatter.timeStyle = .short
