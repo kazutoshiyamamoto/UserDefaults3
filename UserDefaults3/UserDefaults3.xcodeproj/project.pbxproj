@@ -12,6 +12,7 @@
 		FD43059A208F789D004C85BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD430598208F789D004C85BD /* Main.storyboard */; };
 		FD43059C208F78A0004C85BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD43059B208F78A0004C85BD /* Assets.xcassets */; };
 		FD43059F208F78A0004C85BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD43059D208F78A0004C85BD /* LaunchScreen.storyboard */; };
+		FD93925D232E765C00314F99 /* DateTimeManeger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD93925C232E765C00314F99 /* DateTimeManeger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FD43059B208F78A0004C85BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD43059E208F78A0004C85BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD4305A0208F78A0004C85BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD93925C232E765C00314F99 /* DateTimeManeger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeManeger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				FD430594208F789D004C85BD /* AppDelegate.swift */,
 				FD430596208F789D004C85BD /* ViewController.swift */,
+				FD93925C232E765C00314F99 /* DateTimeManeger.swift */,
 				FD430598208F789D004C85BD /* Main.storyboard */,
 				FD43059B208F78A0004C85BD /* Assets.xcassets */,
 				FD43059D208F78A0004C85BD /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD430597208F789D004C85BD /* ViewController.swift in Sources */,
+				FD93925D232E765C00314F99 /* DateTimeManeger.swift in Sources */,
 				FD430595208F789D004C85BD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

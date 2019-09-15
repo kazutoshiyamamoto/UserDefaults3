@@ -37,7 +37,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationDidBecomeActive(_ application: UIApplication) {
         // 前回保存した時刻を呼び出す
         let defaults = UserDefaults.standard
-        defaults.string(forKey: "currentTime")
+        let lastSavedTime = defaults.string(forKey: "currentTime")
         
         
     }
