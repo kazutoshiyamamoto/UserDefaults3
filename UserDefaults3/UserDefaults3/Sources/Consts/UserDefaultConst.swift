@@ -8,6 +8,6 @@
 
 import Foundation
 
-class Const: NSObject {
-    static let currentTimeKey = "currentTime"
+class UserDefaultConst: NSObject {
+    static let currentTime = "currentTime"
 }
