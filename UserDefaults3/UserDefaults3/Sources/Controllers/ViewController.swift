@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let currentTime = DateTime().fetchCurrentTime()
+        UserDefault().saveStringValue(key: UserDefaultConst.currentTime, value: DateFormatter().string(from: currentTime))
     }
 }
 
