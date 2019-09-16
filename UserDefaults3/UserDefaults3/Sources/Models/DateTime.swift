@@ -15,7 +15,7 @@ class DateTime: NSObject {
         dateFormatter.dateStyle = .short
         dateFormatter.timeStyle = .short
         dateFormatter.locale = Locale(identifier: "ja_JP")
-        let currentTime = Date()
+        let currentTime = dateFormatter.string(from: Date())
         
         return currentTime
     }
