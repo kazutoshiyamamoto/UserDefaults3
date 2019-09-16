@@ -18,22 +18,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VXc-Zc-en2">
-                                <rect key="frame" x="-12" y="20" width="387" height="647"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VXc-Zc-en2">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <connections>
                                     <segue destination="5Jf-nD-FoA" kind="embed" id="11u-IO-NrD"/>
                                 </connections>
                             </containerView>
-                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Ti-vT-vkG">
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Ti-vT-vkG">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="AAs-ER-cwt" kind="embed" id="gPU-kP-7mq"/>
                                 </connections>
                             </containerView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VXc-Zc-en2" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="5A4-Kr-Xx8"/>
+                            <constraint firstItem="8Ti-vT-vkG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="8IM-Qw-39G"/>
+                            <constraint firstItem="8Ti-vT-vkG" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="AG5-z2-IiJ"/>
+                            <constraint firstItem="VXc-Zc-en2" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="FRS-vx-yI3"/>
+                            <constraint firstItem="VXc-Zc-en2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="GbM-6l-IME"/>
+                            <constraint firstItem="8Ti-vT-vkG" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="JMS-q8-YTt"/>
+                            <constraint firstItem="8Ti-vT-vkG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Rae-ny-ABB"/>
+                            <constraint firstItem="VXc-Zc-en2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="abV-TO-uOW"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -46,7 +54,7 @@
             <objects>
                 <viewController id="5Jf-nD-FoA" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hWC-ju-2Sj">
-                        <rect key="frame" x="0.0" y="0.0" width="387" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
