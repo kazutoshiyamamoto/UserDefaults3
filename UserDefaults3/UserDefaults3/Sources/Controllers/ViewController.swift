@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // 現在時刻を保存
         let currentTime = DateTime().fetchCurrentTime()
         let defaults = UserDefaults.standard
         defaults.set(currentTime, forKey: UserDefaultConst.currentTime)

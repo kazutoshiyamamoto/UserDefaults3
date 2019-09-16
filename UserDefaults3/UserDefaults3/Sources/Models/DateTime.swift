@@ -10,6 +10,7 @@ import Foundation
 
 class DateTime: NSObject {
     
+    // 現在時刻を取得して文字列で返す
     func fetchCurrentTime() -> String {
         let dateFormatter =  DateFormatter()
         dateFormatter.dateStyle = .short

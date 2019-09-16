@@ -8,6 +8,7 @@
 
 import Foundation
 
+// UserDefaultのキーを扱うクラス
 class UserDefaultConst: NSObject {
     static let currentTime = "currentTime"
 }
