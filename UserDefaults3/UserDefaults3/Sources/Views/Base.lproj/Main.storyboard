@@ -57,13 +57,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2BE-vB-JYw">
-                                <rect key="frame" x="164" y="308" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2BE-vB-JYw">
+                                <rect key="frame" x="164.5" y="308.5" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.1137254902" green="0.91372549020000005" blue="0.58431372550000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2BE-vB-JYw" firstAttribute="centerY" secondItem="hWC-ju-2Sj" secondAttribute="centerY" id="4aK-de-K5k"/>
+                            <constraint firstItem="2BE-vB-JYw" firstAttribute="centerX" secondItem="hWC-ju-2Sj" secondAttribute="centerX" id="4rU-cC-izY"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="xxX-6x-Pam"/>
                     </view>
                 </viewController>
