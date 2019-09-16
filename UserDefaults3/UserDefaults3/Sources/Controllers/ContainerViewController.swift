@@ -12,8 +12,11 @@ class ContainerViewController: UIViewController {
     
     @IBOutlet weak var button: UIButton!
     
+    let notificationObserver = NotificationObserver()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.notificationObserver.addObserver()
         
         // 現在時刻を保存
         let currentTime = DateTime().fetchCurrentTime()
