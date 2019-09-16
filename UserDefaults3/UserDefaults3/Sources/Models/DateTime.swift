@@ -10,7 +10,7 @@ import Foundation
 
 class DateTime: NSObject {
     
-    func fetchCurrentTime() -> Date {
+    func fetchCurrentTime() -> String {
         let dateFormatter =  DateFormatter()
         dateFormatter.dateStyle = .short
         dateFormatter.timeStyle = .short
